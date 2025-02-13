@@ -14,8 +14,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 start = '2010-01-01'
-end = '2019-12-31'
-stock='GOOG'
+end = '2024-12-31'
+stock='ZOMATO.NS'
 data=yf.download(stock,start,end)
 data.head()
 
